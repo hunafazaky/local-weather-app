@@ -2,39 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/svg+xml" href="./assets/icons/hz-icon.svg" />
-    <link rel="stylesheet" href="./styles/normalize.css" />
-    <link rel="stylesheet" href="./styles/main.css" />
-    <script defer src="main.js"></script>
     <title>Hunafa Zaky | Local Weather App</title>
   </head>
   <body>
-    <main>
-      <div class="card">
-        <div class="card-header">
-          <img
-            id="weather-img"
-            src="https://cdn.freecodecamp.org/weather-icons/04d.png"
-            alt="weather-icon"
-          />
-          <h5 class="card-title">Local Weather App</h5>
-        </div>
-        <div class="card-body">
-          <div>
-            <h2>Location</h2>
-            <p id="location">unknown</p>
-          </div>
-          <div>
-            <h2>Weather</h2>
-            <p id="weather">unknown</p>
-          </div>
-          <div>
-            <h2>Temp</h2>
-            <p id="temp">unknown</p>
-          </div>
-        </div>
-      </div>
-    </main>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
